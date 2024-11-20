@@ -1,0 +1,373 @@
+div[name="MenuTable"] {
+    border-top: 5px solid #007db1
+}
+
+.sidebar {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+}
+
+.sidebar a {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+}
+
+.sidebar ul {
+    padding-inline-start: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+
+.sub-menu {
+    display: none
+}
+
+.fa {
+    width: 40px;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    width: 325px;
+    height: 100%;
+    background: #f8f8f8;
+    transition: left 0.4s ease;
+    left: 0px;
+    top: 160px;
+}
+
+nav li {
+    line-height: 0px;
+}
+
+nav ul {
+    background: #f8f8f8;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.menu-item {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.submenu-item {
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    position: relative;
+    color: #4e5758;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 25px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+nav ul li.active>a {
+    color: white!Important;
+    background: #00adee;
+    border-left: 5px solid #007db1;
+    font-weight: bold
+}
+
+nav ul li a:hover {
+    background: #00adee;
+    color: white;
+}
+
+nav ul ul {
+    position: static;
+    display: none;
+}
+
+nav ul ul li a {
+    line-height: 42px;
+    border-top: none;
+}
+
+nav ul ul li a {
+    font-size: 17px;
+    color: #4e5758;
+    padding-left: 60px;
+}
+
+nav ul li.active ul li a {
+    color: #4e5758;
+    background: #f8f8f8;
+    border-left-color: transparent;
+}
+
+nav ul ul li a:hover {
+    color: #007db1!important;
+    background: white!important;
+}
+
+#contentFrame {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 325px;
+    top: 160px;
+    border: none;
+    background: white;
+}
+
+div.panel-body span[name="UserNameLabel"] {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: #777777;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+span[name="headerSection"] {
+    padding-bottom: 0px!important
+}
+
+.adfd-expand {
+    float: right;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+span[name="lblFormTitle"] {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.view .headerView {
+    margin: 0px;
+    border-bottom: 5px solid #007db1;
+}
+
+.view {
+    margin-top: 0px !important
+}
+
+.view div.innerpanel>div {
+    box-shadow: none !important;
+}
+
+.view div.innerpanel>div[name="NavigationBar"] {
+    border-top: 2px solid #777777;
+}
+
+.headerView>div.innerpanel>div {
+    box-shadow: none !important;
+}
+
+.headerView div.panel-body {
+    background-color: white !important
+}
+
+.headerView div.panel-body span[name="UserNameLabel"] {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: #777777;
+    padding: 10px;
+}
+
+div.panel-body span[name="StatusLabel"] {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #97ce8b;
+    padding: 16px;
+    border-radius: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+div.panel-body span[name="RefLabel"] {
+    color: #777777;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.theme-entry .tab-box ul.tab-box-tabs li a.tab.selected,
+.theme-entry .tab-box ul.tab-box-tabs a.tab.selected .tab-wrapper,
+.theme-entry .tab-box ul.tab-box-tabs a.tab.selected:hover .tab-wrapper {
+    background: #7ea55a;
+}
+
+.theme-entry .tab-box ul.tab-box-tabs li a.tab {
+    background: #00adee;
+}
+
+.theme-entry .tab-box ul.tab-box-tabs li a.tab.selected .tab-text,
+.theme-entry .tab-box ul.tab-box-tabs li a.tab.selected:hover .tab-text {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.theme-entry .tab-box ul.tab-box-tabs li a.tab .tab-text {
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button:hover {
+    background-color: #7ea55a;
+    border-color: #7ea55a;
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button {
+    background-color: #00adee;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.theme-entry .panel-header div,
+.theme-entry .grid-header-wrapper div {
+    background-color: #003767
+}
+
+.theme-entry .panel-header,
+.theme-entry .grid-header-wrapper {
+    background-color: #003767
+}
+
+.theme-entry .grid-header-wrapper .grid-header-text,
+.theme-entry .panel-header-wrapper .panel-header-text,
+.theme-entry .grid-header-wrapper .grid-header-text>span,
+.theme-entry .panel-header-wrapper .panel-header-text>span {
+    color: white;
+    font-family: "Open Sans", "Segoe UI", "Helvetica", sans-serif;
+    font-Size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+body.theme-entry,
+.theme-entry div,
+.theme-entry span,
+.theme-entry td,
+.theme-entry li,
+.theme-entry p,
+.theme-entry textarea,
+.theme-entry input[type=text],
+.theme-entry input.text,
+.theme-entry select,
+.theme-entry option,
+.theme-entry label.input-control .input-control-text,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry .input-control-watermark,
+.theme-entry a.Hyperlink,
+.theme-entry a.Hyperlink-NotSet,
+.theme-entry a.Hyperlink-NotSet.disabled {
+    font-size: 1.5rem
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-Label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #777777
+}
+
+.theme-entry .dialog .popup-header-text {
+    background-color: #003767;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.theme-entry .dialog .popup-header-buttons {
+    background: #003767;
+    padding-right: 10px;
+}
+
+.theme-entry span.textbox-style-wrapper.invalid,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.invalid,
+.theme-entry .input-control.invalid .input-control-m-c,
+.theme-entry .input-control.control-group-container.invalid .input-control-m-c,
+.theme-entry .SourceCode-Forms-Controls-Web-Label.invalid,
+.theme-entry .SourceCode-Forms-Controls-Web-DataLabel.invalid,
+.theme-entry div.hyperlinkTopLeftPanel.invalid,
+.theme-entry .picker .input-control.invalid .input-control-m-c,
+.theme-entry .input-control.invalid textarea,
+.theme-entry .input-control.select-box.invalid input[type="text"] {
+    border-color: #b71c1c!important;
+}
+
+.theme-entry span.textbox-style-wrapper.invalid:focus,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.invalid:focus,
+.theme-entry .input-control.invalid .input-control-m-c:focus,
+.theme-entry .SourceCode-Forms-Controls-Web-Label.invalid:focus,
+.theme-entry .SourceCode-Forms-Controls-Web-DataLabel.invalid:focus,
+.theme-entry .file-wrapper-wrapper.invalid:focus,
+.theme-entry div.hyperlinkTopLeftPanel.invalid:focus,
+.theme-entry .picker .input-control.invalid .input-control-m-c:focus,
+.theme-entry .input-control.control-group-container.invalid .input-control-m-c:focus,
+.theme-entry .input-control.text-input.invalid.active .input-control-m-c {
+    border-color: #b71c1c!important;
+}
+
+.theme-entry .input-control.select-box.invalid .input-control-buttons {
+    border-color: #b71c1c!important;
+}
+
+.theme-entry span.textbox-style-wrapper,
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox,
+.theme-entry .input-control .input-control-m-c,
+.theme-entry .input-control.control-group-container .input-control-m-c,
+.theme-entry .SourceCode-Forms-Controls-Web-Label,
+.theme-entry .SourceCode-Forms-Controls-Web-DataLabel,
+.theme-entry div.hyperlinkTopLeftPanel,
+.theme-entry .picker .input-control .input-control-m-c,
+.theme-entry .input-control textarea,
+.theme-entry .input-control.select-box input[type="text"] {
+    border-color: #777777!important;
+}
+
+.theme-entry .input-control.select-box .input-control-buttons {
+    border-color: #777777!important;
+}
+
+.theme-entry .SourceCodeFormsControlsWorklist span.worklist-grid-column-header-cell-text,
+.theme-entry .SourceCodeFormsControlsWorklist .headerTxt {
+    font-size: 1.5rem!important;
+    font-weight: 600!important
+}
+
+.theme-entry .view .grid-header-wrapper .grid-header-text,
+.theme-entry .view .grid-header-wrapper {
+    height: 3rem!important;
+    line-height: 3rem!important;
+    min-height: 3rem!important;
+}
+
+.table-body-colgroup .worklist-grid-view-system-column:last-child,
+.table-header-colgroup .worklist-grid-view-system-column:last-child,
+.WorklistGridHeaderLast.worklist-grid-column-system-header,
+.WorklistTableSelectGridArrow {
+    display: none
+}
