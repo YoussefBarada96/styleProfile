@@ -10,7 +10,9 @@
     box-shadow: 1px 2px 5px var(--tab-selected-background-color);
 }
 
-
+.mobile .theme-entry.psf .header.fixed .logo {
+    display: none;
+}
 
 .mobile .theme-entry.psf .hidden {
     display: none;
