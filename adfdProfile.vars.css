@@ -29,7 +29,7 @@ body.theme-entry .psf,
     --sidebar-width-ratio: 1%;
     --sidebar-background-color: #004E6F;
     /*--sidebar-shadow-color: # 585858; */
-    --sidebar-label-color: #000000;
+    --sidebar-label-color: var(--page-background-color);
     --sidebar-padding: 50px;
     --form-background-color: #f3f3f3;
     --page-background-color: white;
