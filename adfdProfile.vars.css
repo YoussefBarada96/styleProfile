@@ -408,7 +408,7 @@ body.mobile.theme-entry .psf,
     --dialog-background-effect: none;
     --content-inset-vertical-spacing: 2rem;
     --content-inset-horizontal-spacing: 2rem;
-    --block-inset-vertical-spacing: 1rem;
+    --block-inset-vertical-spacing: 2rem;
     --block-inset-horizontal-spacing: 1rem;
     --between-block-spacing: 1rem;
     --control-inset-vertical-spacing: 0.7rem;
