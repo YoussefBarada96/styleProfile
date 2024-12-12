@@ -413,7 +413,7 @@ body.mobile.theme-entry .psf,
     --between-block-spacing: 1rem;
     --control-inset-vertical-spacing: 0.7rem;
     --control-inset-horizontal-spacing: 1rem;
-    --between-control-spacing: 0.4rem;
+    --between-control-spacing: 2rem;
     --control-inset-narrow-vertical-spacing: 0.2rem;
     --control-inset-narrow-horizontal-spacing: 0.4rem;
     --panel-background-color: #f2f2f2;
