@@ -67,7 +67,6 @@
 .theme-entry.psf .readonly {
     border: none;
     background-color: transparent;
-    height: inherit;
 }
 
 .theme-entry.psf label.SFC.SourceCode-Forms-Controls-Web-Label.input-label,
@@ -89,6 +88,7 @@
 
 .theme-entry.psf div.search-control .input-control.text-input .input-control-m-c>.input-control-wrapper {
     width: calc(100% - 50px);
+    height: 20px;
 }
 
 .theme-entry.psf div.search-control .input-control.text-input .input-control-m-c:after {
@@ -980,6 +980,7 @@
 
 .theme-entry.psf div.search-control .input-control.text-input .input-control-m-c>.input-control-wrapper {
     width: calc(100% - 50px);
+    height: 20px;
 }
 
 .theme-entry.psf div.search-control .input-control.text-input .input-control-m-c:after {
