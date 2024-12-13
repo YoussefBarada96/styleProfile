@@ -67,6 +67,7 @@
 .theme-entry.psf .readonly {
     border: none;
     background-color: transparent;
+    height: inherit;
 }
 
 .theme-entry.psf label.SFC.SourceCode-Forms-Controls-Web-Label.input-label,
