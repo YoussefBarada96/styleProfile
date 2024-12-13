@@ -304,9 +304,9 @@
 .theme-entry.psf div.sidebar div.logo>img {
     background-color: var(--sidebar-label-color);
     border-radius: 10px;
-    margin-top: 10px;
-    /* margin-left:-25%; */
-    margin-bottom: 10px;
+    /* margin-top: 10px;
+    margin-left:-25%; 
+    margin-bottom: 10px;*/
     padding: 10px;
     display: block!important;
 }
