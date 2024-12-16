@@ -32,9 +32,14 @@ render = () => {
     renderNavigation();
     renderKPIs();
     renderSearchBox();
+    RemoveDisabledToolbar();
 }
 
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
+
+RemoveDisabledToolbar = () => {
+    $('toolbar-wrapper a.disabled').removeClass('disabled');
+}
 
 renderSidebar = () => {
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
