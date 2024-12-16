@@ -38,7 +38,7 @@ render = () => {
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
 
 RemoveDisabledToolbar = () => {
-    $('toolbar-wrapper a.disabled').removeClass('disabled');
+    $('.toolbar-wrapper a.disabled').removeClass('disabled');
 }
 
 renderSidebar = () => {
