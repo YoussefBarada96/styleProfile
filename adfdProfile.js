@@ -18,6 +18,7 @@ $(document).ready(function () {
     enableTheme();
     render();
     //    detectClicks();
+    RemoveDisabledToolbar();
 });
 
 enableTheme = () => {
@@ -32,7 +33,6 @@ render = () => {
     renderNavigation();
     renderKPIs();
     renderSearchBox();
-    RemoveDisabledToolbar();
 }
 
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
