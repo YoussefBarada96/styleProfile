@@ -15,10 +15,10 @@ detectClicks = () => {
 isMobile = () => $('html').hasClass("mobile");
 
 $(document).ready(function () {
+    RemoveDisabledToolbar();
     enableTheme();
     render();
     //    detectClicks();
-    RemoveDisabledToolbar();
 });
 
 enableTheme = () => {
