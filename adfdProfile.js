@@ -15,7 +15,6 @@ detectClicks = () => {
 isMobile = () => $('html').hasClass("mobile");
 
 $(document).ready(function () {
-    RemoveDisabledToolbar();
     enableTheme();
     render();
     //    detectClicks();
@@ -37,9 +36,6 @@ render = () => {
 
 renderNavigation = () => isMobile() ? renderDrawer() : renderSidebar();
 
-RemoveDisabledToolbar = () => {
-    $('.toolbar-wrapper a.disabled').removeClass('disabled');
-}
 
 renderSidebar = () => {
     const sidebar = $("<div id='sidebar' class='sidebar'></div>");
