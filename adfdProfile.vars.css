@@ -386,10 +386,10 @@ body.mobile.theme-entry .psf,
     --main-text-size: 1.2rem;
     --page-title-text-size: 3.6rem;
     --page-subtitle-text-size: 2.4rem;
-    --heading1-text-size: 3.2rem;
-    --heading2-text-size: 2.4rem;
-    --heading3-text-size: 1.8rem;
-    --heading4-text-size: 1.6rem;
+    --heading1-text-size: 2rem;
+    --heading2-text-size: 1.8rem;
+    --heading3-text-size: 1.68rem;
+    --heading4-text-size: 1.4rem;
     --input-label-text-size: 1.4rem;
     --popover-rounding: 5px;
     --control-rounding: 3px;
