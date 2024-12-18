@@ -43,7 +43,7 @@ body.theme-entry .psf,
     --page-title-text-color: var(--normal-text-color);
     --page-subtitle-text-color: #919496;
     --page-subtitle-text-size: 2em;
-    --heading1-text-color: var(--page-title-text-color);
+    --heading1-text-color: var(--normal-text-color);
     --heading2-text-color: var(--page-subtitle-text-color);
     --view-header-text-color: var(--normal-text-color);
     --view-header-background-color: #f3f3f3;
