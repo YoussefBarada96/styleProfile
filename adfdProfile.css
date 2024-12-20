@@ -177,7 +177,7 @@
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab {
-    font-size: 20px;
+    font-size: 1.65rem;
     color: var(--page-background-color);
     border: none;
     padding-top: 20px;
@@ -205,7 +205,7 @@
 }
 
 .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text {
-    min-width: 10rem;
+    min-width: 17rem;
 }
 
 .mobile .theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text {
@@ -1001,3 +1001,12 @@
     display: grid;
 }
 
+/* updated custom css */
+
+.editor-cell.droptarget .SFC.SourceCode-Forms-Controls-Web-Label{
+    margin-bottom: 5px !important;
+}
+
+.theme-entry .multi-select-outer-panel .multi-select-box-list-item .input-control.radio, .theme-entry .multi-select-outer-panel .multi-select-box-list-item .input-control.checkbox, .theme-entry .checkbox-outer-panel .input-control.checkbox{
+    margin-top: 5px !important; 
+}
