@@ -1010,3 +1010,16 @@
 .theme-entry .multi-select-outer-panel .multi-select-box-list-item .input-control.radio, .theme-entry .multi-select-outer-panel .multi-select-box-list-item .input-control.checkbox, .theme-entry .checkbox-outer-panel .input-control.checkbox{
     margin-top: 5px !important; 
 }
+
+.input-control.select-box.lookup-box.picker-input,
+.input-control-body.styling-left.styling-inner-wrapper .input-control-m-c{
+    height: 41px !important;
+}
+
+.input-control-buttons.styling-right.styling-inner-wrapper{
+    height: 39px !important;
+}
+
+.input-control-m-c.styling-inner-wrapper{
+    height: 41px !important;
+}
